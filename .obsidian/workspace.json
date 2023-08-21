@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "01029029293e459b",
+        "id": "41a040e876c3db07",
         "type": "tabs",
         "children": [
           {
-            "id": "4d441d9fdfee5c71",
+            "id": "63ae0fafcb4a599a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sass-loader和node-sass人心惶惶.md",
+                "file": "我的obsidian的文件链接git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sass-loader和node-sass人心惶惶.md",
+                "file": "我的obsidian的文件链接git.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sass-loader和node-sass人心惶惶.md",
+                "file": "我的obsidian的文件链接git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sass-loader和node-sass人心惶惶.md"
+                "file": "我的obsidian的文件链接git.md"
               }
             }
           }
@@ -149,21 +149,21 @@
       "privacy-glasses:Reveal all": false
     }
   },
-  "active": "4d441d9fdfee5c71",
+  "active": "63ae0fafcb4a599a",
   "lastOpenFiles": [
+    "sass-loader和node-sass人心惶惶.md",
+    "我的obsidian的文件链接git.md",
     "2023-8月记录.md",
     "node版本升级.md",
     "img/Pasted image 20230818164604.png",
     "img/Pasted image 20230818164557.png",
     "工具/打包不同环境-cross-env.md",
-    "未命名.md",
     "工艺路线.md",
     "8-11.md",
     "第一篇文章.md",
     "物料通用组件记录.md",
     "Form的item-search-common.md",
     "七月工作.md",
-    "sass-loader和node-sass人心惶惶.md",
     "未命名.canvas",
     "webpack版本升级.md",
     "img/Pasted image 20230818144530.png",
