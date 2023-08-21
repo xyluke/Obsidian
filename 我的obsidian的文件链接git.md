@@ -38,3 +38,4 @@ git push  --set-upstream origin main  // 链接远程仓库的分支
 ![[img/Pasted image 20230821113359.png]]
 
 ![[img/Pasted image 20230821113418.png]]
+以上就是我gitignore文件忽略掉之前传递上去的.obsidian的文件夹的问题。
