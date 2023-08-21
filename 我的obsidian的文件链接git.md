@@ -35,4 +35,6 @@ git push  --set-upstream origin main  // 链接远程仓库的分支
 
 # .gitignore 处理之前上传过的文件
 
+![[img/Pasted image 20230821113359.png]]
 
+![[img/Pasted image 20230821113418.png]]
