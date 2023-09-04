@@ -1,8 +1,57 @@
 ## 枚举组件
 
+> props
+~~~js
+    props: {
+        value: {
+            required: true,
+            type: [Object, Array],
+            default() {
+                return { id: "", name: "" }
+            }
+        },
+        // 枚举列表
+        data: {
+            required: true,
+            type: Array,
+            default() {
+                return []
+            }
+        },
+        // 是否多选
+        multiple: {
+            type: Boolean,
+            default: false,
+        },
+        prop: {
+            type: String,
+            default: ""
+        },
+        disabled: {
+            type: Boolean,
+            default: false,
+        },
+        required: {
+            type: Boolean,
+            default: false
+        },
+        clearable: {
+            type: Boolean,
+            default: true
+        },
+        label: {
+            type: String,
+            default: "",
+        },
+        span: {
+            type: Number,
+            default: 6
+        },
+    },
+~~~
+
 > 枚举选项时使用
 
-metaJson
 ~~~js
 {
 	backType: {id: 'String', name: '字符串'},
@@ -29,8 +78,3 @@ metaJson
 	width: 8
 }
 ~~~
-
-data
-枚举列表
-multiple
-是否多选
