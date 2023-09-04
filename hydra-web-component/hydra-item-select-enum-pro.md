@@ -29,3 +29,8 @@ metaJson
 	width: 8
 }
 ~~~
+
+data
+枚举列表
+multiple
+是否多选
