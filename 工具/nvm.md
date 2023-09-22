@@ -65,3 +65,7 @@ npm_mirror: https://npm.taobao.org/mirrors/npm/ //npm 镜像
 proxy: //代理 可不填 
 arch: 64 //操作系统位数 
 ~~~
+
+
+# 实践建议
+直接删除掉之前的nodejs，下载nvm通过nvm来安装node好管理。

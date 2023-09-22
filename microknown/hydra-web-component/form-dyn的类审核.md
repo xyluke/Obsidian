@@ -1,4 +1,4 @@
-![[../img/Pasted image 20230905091752.png]]
+![[../../img/Pasted image 20230905091752.png]]
 > ctrl + L 添加复选框  ctrl + E 阅读与编辑视图切换
 - [ ] String  hydra-item-input-dyn
 - [ ] Number hydra-item-input-dyn  type:number
