@@ -1,0 +1,1 @@
+![[../img/Pasted image 20231009173609.png]]
