@@ -136,4 +136,21 @@ checkRequire = (checkItem, data, subform=false) => {
 	}
 	return false
 }
+
+// 售后更改 当card的children为空的时候还是会校验
+if (data.hasOwnProperty(checkItem.name)) {
+	let value = data[checkItem.name];
+	let label = checkItem.label;
+	if (value === undefined || 
+	value === null || 
+	value === '' || 
+	Array.isArray(value) && !value.length && !checkItem.subform) {
+		this.totalAction(`【${label}】 未填写值`);
+		return true;
+	}
+} else {
+	return false
+}
 ~~~
+
+
