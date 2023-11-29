@@ -21,3 +21,13 @@ safe-area-inset-bottom：安全区域距离底部边界的距离
  }
 
 ~~~
+>https://juejin.cn/post/7290800838623854648
+>https://blog.csdn.net/weixin_45811256/article/details/124884303
+>https://blog.51cto.com/u_16213630/7855916
+
+
+[安全区问题](https://blog.csdn.net/m0_37285193/article/details/119936097)
+
+[适配举列子](http://www.yilingsj.com/xwzj/2020-07-26/iPhoneX-safe-area-inset-bottom.html)
+
+
