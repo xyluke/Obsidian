@@ -13,3 +13,5 @@ h5中可以使用这个组件，但是小程序无法弹出选择的这个窗口
 [隐私填写说明](https://developers.weixin.qq.com/miniprogram/dev/framework/user-privacy/)
 [微信公众平台](https://mp.weixin.qq.com/)
 
+
+[回答问题的方法](https://developers.weixin.qq.com/community/develop/doc/000aa68d820d3864dd4044f0364400?highLine=taro%2520image)
