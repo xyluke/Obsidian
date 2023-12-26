@@ -149,3 +149,66 @@ class App extends Component<Props> {
 }
 export default App;
 ~~~
+
+
+# 使用问题
+> moduleA 要使用moduleB的方法
+
+~~~js
+// moduleA
+import { createSlice } from '@reduxjs/toolkit';
+const initData = {
+	data1: '初始化数据'
+}
+
+export const moduleAslice = createSlice({
+	name: 'moduleA',
+	initialState: initData,
+	reducers:{
+		init() {
+			return initData
+		}
+	}
+})
+
+export const {
+	init
+} = moduleAslice.actions;
+
+export default flowSlice.reducer
+
+// moduleB 
+import { init as moduleAInit } from "./moduleAslice";
+import { createSlice, createAsyncThunk} from '@reduxjs/toolkit';
+
+export const onInitModule = createAsyncThunk('moduleB/onInitModule', initModule);
+
+function initModule(data, thunkApi) {
+	// 初始化moduleA
+	thunkApi.dispatch(moduleAInit());
+	// 初始化moduleB
+	thunkApi.dispatch(init());
+	return
+}
+
+const initDataB = {
+	name: 'moduleB的初始数据'
+}
+
+export const moduleBslice = createSlice({
+	name: 'moduleB',
+	initialState: initDataB,
+	reducers: {
+		init(){
+			// B的重置数据
+			return initDataB;
+		}
+	}
+})
+
+export const = {
+	init
+} = moduleBslice.actions;
+
+export default moduleBslice.reducer;
+~~~
