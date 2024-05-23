@@ -304,3 +304,7 @@ http {
 }
 
 ~~~
+
+
+[Nginx知乎](https://zhuanlan.zhihu.com/p/624322044?utm_id=0)
+[Nginx的压缩问题](https://www.cnblogs.com/t-road/p/6740101.html)
