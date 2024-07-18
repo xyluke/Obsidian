@@ -25,3 +25,22 @@
 
 `flow.FlowableTask/todoList`
 ![[../img/Pasted image 20240717165838.png]]
+
+![[../img/Pasted image 20240718191140.png]]
+~~~js
+this.getGlobalDsv().queryMyValue = function (query, dsvName) {
+    if(dsvName == 'myProcess') {
+      Object.assign(query, {
+        codeOrName: '',
+        organId: ''
+      });
+    } else if(dsvNmae == 'todoList') {
+        Object.assign(query, {
+          description: null,
+          phonenum: null,
+          statusList: []
+          telephone: null
+        })
+    }
+} 
+~~~
