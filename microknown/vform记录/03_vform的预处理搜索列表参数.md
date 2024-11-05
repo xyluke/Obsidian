@@ -35,3 +35,9 @@ this.globalDsv.preQueryFun = pretreatmentFun;
 ~~~
 
 
+在表单的生命周期 create方法中添加
+~~~js
+在表单中的生命周期 this能拿到
+~~~
+
+
