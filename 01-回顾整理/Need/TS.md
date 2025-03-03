@@ -82,3 +82,92 @@ let person:P = {
 ![[../../img/Pasted image 20250226145426.png]]
 # 类型强转
 ![[../../img/Pasted image 20250226144252.png]]
+
+
+# Interface
+~~~ts
+interface animal {
+  name: string,
+  eat(name: string): string,
+  run?(): void
+}
+
+interface dog extends animal {
+  dogName: string
+}
+const smartDog : dog = {
+  dogName: '88',
+  name: '狗',
+  eat(name:string){
+    console.log(name);
+    return name
+  }
+}
+smartDog.eat('骨头')
+~~~
+作用：
+1. 对象类型定义
+~~~js
+interface Person {
+  name: string;
+  age: number;
+}
+
+const person: Person = {
+  name: 'Alice',
+  age: 25
+};
+~~~
+
+2. 函数签名
+~~~ts
+interface Greet {
+	(name: string, num: number): string
+}
+const greetFun: Greet = (name: string, number: number) => {
+	return name + number;
+}
+~~~
+
+3. 继承接口
+~~~ts
+interface Animal {
+  name: string;
+  eat(): void;
+}
+
+interface Dog extends Animal {
+  bark(): void;
+}
+
+const dog: Dog = {
+  name: 'Buddy',
+  eat() {
+    console.log('Eating...');
+  },
+  bark() {
+    console.log('Woof!');
+  }
+};
+~~~
+
+~~~
+总结：
+implements 主要用于类去实现接口，确保类包含接口中定义的属性和方法。
+接口本身可以直接作为类型约束对象、函数等。
+接口还可以通过继承（extends）来组合其他接口的结构。
+接口的用途非常灵活，除了类的实现之外，完全不需要 implements 关键字也能有效地约束对象、函数、甚至是类的类型结构。
+~~~
+
+# Type
+在 TypeScript 中，type 是用来定义类型别名的关键字，它允许你给一个类型指定一个新的名称。与接口 (interface) 相似，type 可以用来描述各种类型结构，比如原始类型、联合类型、交叉类型、元组等。
+![[../../img/Pasted image 20250303102341.png]]
+![[../../img/Pasted image 20250303102353.png]]
+![[../../img/Pasted image 20250303102420.png]]
+![[../../img/Pasted image 20250303102440.png]]
+
+# type和interface的区别
+![[../../img/Pasted image 20250303102936.png]]
+![[../../img/Pasted image 20250303102957.png]]![[../../img/Pasted image 20250303103014.png]]
+![[../../img/Pasted image 20250303103027.png]]
+![[../../img/Pasted image 20250303103054.png]]
