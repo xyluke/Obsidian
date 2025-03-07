@@ -1,3 +1,6 @@
+在线ts网站
+https://www.typescriptlang.org/zh/play/?#code
+
 ![[../../img/Pasted image 20250226141517.png]]
 
 ![[../../img/Pasted image 20250226141528.png]]
