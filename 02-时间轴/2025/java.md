@@ -3,7 +3,7 @@
 一个类必须声明属性才能设置this.属性
 一个java文件只能有一个同名的class 类。同时只能有一个
 public static void main(String [] args) {} 函数
-而且类中的同名函数就是构造函数
+而且类中的同名函数就是构造函数，如果要使用内部的整个值就传递this
 
 
 ![[../../img/Pasted image 20250512121940.png]]
