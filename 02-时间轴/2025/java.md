@@ -16,3 +16,8 @@ public static void main(String [] args) {} 函数
 类图中# 要用protected修饰
 定义变量时要带类型List`<MenuComponent>` elementsList
 ![[../../img/Pasted image 20250512122442.png]]
+
+
+
+第一题
+![[../../img/Pasted image 20250512154900.png]]
