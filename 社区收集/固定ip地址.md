@@ -11,3 +11,5 @@ ipconfig /all
 ![[../img/Pasted image 20250509095829.png]]
 
 ![[../img/Pasted image 20250509095733.png]]
+
+10:6f:d9:05:11:cb
