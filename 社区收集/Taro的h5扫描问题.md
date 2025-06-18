@@ -1,6 +1,8 @@
 ![[../img/Pasted image 20250618101158.png]]
 
 host的配置
+https://blog.51cto.com/u_17135169/12571168
+
 ~~~ts
 /*
  * Copyright (C) Microknown, 2022-2024 by kiterunner_t
