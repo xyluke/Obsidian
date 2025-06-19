@@ -3,6 +3,8 @@
 host的配置
 https://blog.51cto.com/u_17135169/12571168
 
+https://blog.csdn.net/fang_my/article/details/133209242
+
 ~~~ts
 /*
  * Copyright (C) Microknown, 2022-2024 by kiterunner_t
@@ -154,3 +156,6 @@ import ScanComponent from '@/components/ScanComponent';
 <ScanComponent ref={this.scanRef} scanSuccess={(v) => this.scanSuccess(v)}/>
 ~~~
 
+https://blog.csdn.net/Lin_javascript/article/details/134503635
+
+https://www.cnblogs.com/lpkshuai/p/18029808
