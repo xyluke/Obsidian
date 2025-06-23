@@ -69,3 +69,8 @@ arch: 64 //操作系统位数
 
 # 实践建议
 直接删除掉之前的nodejs，下载nvm通过nvm来安装node好管理。
+
+nvm  install版本 报错
+~~~
+https://blog.csdn.net/m0_73442728/article/details/146308810?spm=1001.2014.3001.5502
+~~~
